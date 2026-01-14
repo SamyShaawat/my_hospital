@@ -8,6 +8,7 @@
                 <field name="name"/>
                 <field name="date_of_birth" optional="show"/>
                 <field name="gender" optional="hide"/>
+                <field name="tag_ids"/>
             </tree>
         </field>
     </record>
@@ -25,6 +26,7 @@
                         </group>
                         <group>
                             <field name="date_of_birth"/>
+                            <field name="tag_ids" widget="many2many_tags"/>
                         </group>
                     </group>
                 </sheet>

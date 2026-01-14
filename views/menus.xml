@@ -6,4 +6,7 @@
     <menuitem id="menu_patients_readonly" name="View Patients" parent="menu_frontdesk"
               action="action_hospital_patient_readonly"/>
     <menuitem id="menu_appointments" name="Appointments" parent="menu_frontdesk" action="action_hospital_appointment"/>
+    <menuitem id="menu_configuration" name="Configuration" parent="menu_hospital_root" sequence="100"/>
+    <menuitem id="menu_patient_tag" name="Tags" parent="menu_configuration"
+              action="action_patient_tag"/>
 </odoo>
